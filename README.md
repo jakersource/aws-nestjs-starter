@@ -1,15 +1,5 @@
 # Serverless, AWS, NestJS, GraphQL and DynamoDB starter
 
-<p>
-<a href="https://github.com/hardyscc/aws-nestjs-starter/actions"><img src="https://github.com/hardyscc/aws-nestjs-starter/workflows/Node.js%20CI/badge.svg" alt="CI"></a>
-<a href="https://sonarcloud.io/dashboard?id=hardyscc_aws-nestjs-starter"><img src="https://sonarcloud.io/api/project_badges/measure?project=hardyscc_aws-nestjs-starter&metric=alert_status" alt="Alert Status"></a>
-<a href="https://sonarcloud.io/component_measures?id=hardyscc_aws-nestjs-starter&metric=coverage&view=list"><img src="https://sonarcloud.io/api/project_badges/measure?project=hardyscc_aws-nestjs-starter&metric=coverage" alt="Coverage"></a>
-<a href="https://sonarcloud.io/project/issues?id=hardyscc_aws-nestjs-starter&resolved=false"><img src="https://sonarcloud.io/api/project_badges/measure?project=hardyscc_aws-nestjs-starter&metric=bugs" alt="Bugs"></a>
-<a href="https://sonarcloud.io/project/issues?id=hardyscc_aws-nestjs-starter&resolved=false"><img src="https://sonarcloud.io/api/project_badges/measure?project=hardyscc_aws-nestjs-starter&metric=code_smells" alt="Code Smells"></a>
-<a href="https://github.com/hardyscc/aws-nestjs-starter/blob/master/LICENSE"><img src="https://img.shields.io/github/license/hardyscc/aws-nestjs-starter" alt="License"></a>
-<a href="https://twitter.com/hardyscchk"><img src="https://img.shields.io/twitter/follow/hardyscchk.svg?style=social&label=Follow"></a>
-</p>
-
 ## Description
 
 A starter project that makes creating a deployable AWS Serverless project extremely easy.
@@ -26,7 +16,7 @@ A starter project that makes creating a deployable AWS Serverless project extrem
 ## Usage
 
 ```bash
-git clone https://github.com/hardyscc/aws-nestjs-starter.git <Your_Project_Name>
+git clone https://github.com/jakersource/aws-nestjs-starter.git <Your_Project_Name>
 cd <Your_Project_Name>
 
 npm install
@@ -212,8 +202,3 @@ curl -X PATCH 'http://localhost:3000/dev/notification/a30f7101-2434-4443-87fa-49
   -H 'Content-Type: application/json' \
   --data-raw '{ "status": "Deleted" }'
 ```
-
-## Stay in touch
-
-- Author - [Hardys](mailto:hardyscc@gmail.com)
-- Twitter - [@hardyscchk](https://twitter.com/hardyscchk)
